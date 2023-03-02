@@ -17,9 +17,18 @@
    <li>int ciclo;</li>
 </ul>
 <p>A lista de alunos será criada ao inicializar a classe main do servidor e deverá ser armazenada em memória como um ArrayList de Aluno, para simular um banco de dados. A lista de alunos é a seguinte (vocês podem incluir novos alunos à vontade):</p>
-<pre><div class="bg-black mb-4 rounded-md"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans"><span class="">csharp</span><button class="flex ml-auto gap-2"><svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button></div><div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-csharp">ArrayList&lt;Aluno&gt; listaAlunos = <span class="hljs-keyword">new</span> ArrayList&lt;Aluno&gt;();
+<pre>
+<div class="bg-black mb-4 rounded-md"><div class="flex items-center relative text-gray-200 bg-gray-800 px-4 py-2 text-xs font-sans">
+<span class="">java</span>
+<button class="flex ml-auto gap-2">
+<svg stroke="currentColor" fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round" class="h-4 w-4" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"></path><rect x="8" y="2" width="8" height="4" rx="1" ry="1"></rect></svg>Copy code</button>
+</div>
+<div class="p-4 overflow-y-auto"><code class="!whitespace-pre hljs language-csharp">ArrayList&lt;Aluno&gt; listaAlunos = <span class="hljs-keyword">new</span> ArrayList&lt;Aluno&gt;();
 listaAlunos.<span class="hljs-keyword">add</span>(<span class="hljs-keyword">new</span> Aluno(<span class="hljs-number">1</span>, <span class="hljs-string">"Joao"</span>, <span class="hljs-string">"joao@joao.com"</span>,<span class="hljs-number">3</span>));
 listaAlunos.<span class="hljs-keyword">add</span>(<span class="hljs-keyword">new</span> Aluno(<span class="hljs-number">2</span>, <span class="hljs-string">"Maria"</span>, <span class="hljs-string">"maria@maria.com"</span>,<span class="hljs-number">1</span>));
 listaAlunos.<span class="hljs-keyword">add</span>(<span class="hljs-keyword">new</span> Aluno(<span class="hljs-number">3</span>, <span class="hljs-string">"Jose"</span>, <span class="hljs-string">"jose@mariajoao.com"</span>,<span class="hljs-number">2</span>));
 listaAlunos.<span class="hljs-keyword">add</span>(<span class="hljs-keyword">new</span> Aluno(<span class="hljs-number">4</span>, <span class="hljs-string">"Pedro"</span>, <span class="hljs-string">"pedro@email.com"</span>,<span class="hljs-number">3</span>));
-</code></div></div></pre>
+</code>
+</div>
+</div>
+</pre>
